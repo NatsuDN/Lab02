@@ -9,13 +9,22 @@ h1{
 }
 /*Make all <li> elements in the shade of hexadecimal blue*/
 ul{
-
+    color:#00e1ff;
 }
 /*Paragraph background to orange*/
+p{
+    color: orange;
+}
 
 /*Make all <h3> have 5px red solid border*/
+h3{
+    border: 5px solid red;
+}
 
 /*Give everything with <abbr> bold and underlined*/
+abbr{
+    
+}
 
 /*Give elements with class "explanation" red*/
 
