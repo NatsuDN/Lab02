@@ -1,6 +1,6 @@
 /*Give the <body> element a background of Black*/
 body{
-    background-color: black;
+    background-color: gray;
     font-family: 'Pattaya', sans-serif;
 }
 /*Make the <h1> elements blue*/
@@ -23,13 +23,27 @@ h3{
 
 /*Give everything with <abbr> bold and underlined*/
 abbr{
-    
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /*Give elements with class "explanation" red*/
+.explanation{
+    color: red;
+}
 
 /*Give <p> in id "zen-benefits" pink background*/
+#zen-benefits p{
+    background-color: pink;
+}
 
 /*Make <li> adjacent to <h2> red background*/
+h2+li{
+    background-color: red;
+}
 
 /*Give <em> inside <p> red and bold*/
+p em{
+    color: red;
+    font-weight: bold;
+}
